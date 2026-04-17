@@ -22,34 +22,34 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
    [GitHub Actions](https://github.com/features/actions)
    la ejecución de las diferentes tareas del proyecto
 1. Se valorará la realización de las diferentes tareas que se proponen
-* El comportamiento del programa debe ajustarse a lo descrito en este documento
-* Capacidad de la programadora de introducir cambios en el programa desarrollado
-* Conocer y ser capaz de trabajar con el Framework
-  [Bulma CSS](https://bulma.io/)
-* La documentación de la aplicación incluirá un fichero README.md con la información correspondiente al
-  proyecto desarrollado
-* La estructura de directorios del proyecto será conforme a los requisitos establecidos en la asignatura
-* Se acredita conocimiento y puesta en práctica de principios y buenas prácticas de programación orientada a objetos
-* Saber corregir bugs en sus programas utilizando un depurador 
-* Deben usarse estructuras de datos adecuadas para representar los diferentes elementos que intervienen en el problema
-* Acreditar el conocimiento las etiquetas de 
-  [JSDoc](https://jsdoc.app/)
-* Ser capaz de generar documentación para sus programas TS utilizando
-  [TypeDoc](https://typedoc.org/)
-  y de visualizar dicha documentación en un servidor web
-* Acreditar su capacidad para configurar y utilizar 
-  [ESLint](https://eslint.org/)
-  y que es capaz de trabajar con la misma en Visual Studio Code
-* Se comprobará que el código de su aplicación se adhiere a las reglas de las Guías de Estilo de Google para
-  [TypeScript](https://google.github.io/styleguide/tsguide.html)
-  y
-  [JavaScript](https://google.github.io/styleguide/jsguide.html)
-  Usando 
-  [typescript-eslint](https://typescript-eslint.io/)
-  si le resulta necesario para ello.
-* Se comprobará que el código que el alumnado escribe se adhiere a las reglas de las Guías de Estilo de Google
-  para Javascript y/o TypeScript
-* Todas las prácticas realizadas hasta la fecha, incluída la que se presenta para su evaluación, se encuentran alojadas en repositorios privados de GitHub.
+1. El comportamiento del programa debe ajustarse a lo descrito en este documento
+1. Capacidad de la programadora de introducir cambios en el programa desarrollado
+1. Conocer y ser capaz de trabajar con el Framework
+   [Bulma CSS](https://bulma.io/)
+1. La documentación de la aplicación incluirá un fichero README.md con la información correspondiente al
+   proyecto desarrollado
+1. La estructura de directorios del proyecto será conforme a los requisitos establecidos en la asignatura
+1. Se acredita conocimiento y puesta en práctica de principios y buenas prácticas de programación orientada a objetos
+1. Saber corregir bugs en sus programas utilizando un depurador 
+1. Deben usarse estructuras de datos adecuadas para representar los diferentes elementos que intervienen en el problema
+1. Acreditar el conocimiento las etiquetas de 
+   [JSDoc](https://jsdoc.app/)
+1. Ser capaz de generar documentación para sus programas TS utilizando
+   [TypeDoc](https://typedoc.org/)
+   y de visualizar dicha documentación en un servidor web
+1. Acreditar su capacidad para configurar y utilizar 
+   [ESLint](https://eslint.org/)
+   y que es capaz de trabajar con la misma en Visual Studio Code
+1. Se comprobará que el código de su aplicación se adhiere a las reglas de las Guías de Estilo de Google para
+   [TypeScript](https://google.github.io/styleguide/tsguide.html)
+   y
+   [JavaScript](https://google.github.io/styleguide/jsguide.html)
+   Usando 
+   [typescript-eslint](https://typescript-eslint.io/)
+   si le resulta necesario para ello.
+1. Se comprobará que el código que el alumnado escribe se adhiere a las reglas de las Guías de Estilo de Google
+   para Javascript y/o TypeScript
+1. Todas las prácticas realizadas hasta la fecha, incluída la que se presenta para su evaluación, se encuentran alojadas en repositorios privados de GitHub.
 
 ### Integración Continua
 Estudie el trabajo expuesto en clase sobre
