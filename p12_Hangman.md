@@ -1,87 +1,63 @@
-# Práctica 12. Programación Gráfica Orientada a Objetos y guiada por eventos. El juego del Ahorcado.
-### Factor de ponderación: 10 
+# Práctica 12. Programación Gráfica Orientada a Objetos y guiada por eventos. El framework Bulma CSS. Juego del Ahorcado. 
 
-### Examen de la asignatura
-Tenga en cuenta que esta es la primera de las dos prácticas que componen el examen final de la asignatura.
+### Factor de ponderación: 10 
+### Estimación de horas de trabajo para realizar la práctica: 6
 
 ### Objetivos
 Los objetivos de esta tarea son poner en práctica:
 * Integración continua para un proyecto de prácticas de la asignatura
-* La arquitectura Modelo Vista Controlador
-* Conceptos de Programación orientada a eventos en TypeScript.
-* Conceptos de Programación Gráfica en TypeScript usando la API Canvas.
-* Metodologías y conceptos de Programación Orientada a Objetos en TypeScript.
-* Principios y Buenas prácticas de programación Orientada a Objetos.
-* El uso del framework Bulma para dotar de estilo a una aplicación web simple.
+* La arquitectura Modelo-Vista-Controlador (MVC)
+* El uso del framework Bulma para dotar de estilos a una aplicación web simple.
+* Programación orientada a eventos en TypeScript.
+* Programación Gráfica en TypeScript usando la API Canvas.
+* Metodologías y conceptos de diseño y Programación Orientada a Objetos en TypeScript.
+* Principios y buenas prácticas de programación Orientada a Objetos.
+* Algunos de los patrones de diseño que se han estudiado en la asignatura.
 * El uso de elementos HTML.
 
-### Revise cuidadosamente los elementos de esta rúbrica puesto que será la que se utilice para la evaluación de la práctica
-
-1. Tanto el ejercicio propuesto para esta práctica como los que se propondrán en la sesión de evaluación
-   han de entregarse en la correspondiente tarea del aula virtual a través de un repositorio privado de
-   [GitHub](https://github.com/)
-1. Su proyecto ha de incluir un fichero `README.md` con indicaciones precisas para compilar (*build*) y desplegar su aplicación en una 
-   [página GitHub](https://pages.github.com/)
-   asociada con el repositorio del proyecto
+### Rúbrica de evaluacion del ejercicio
+Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
+que se tendrán en cuenta a la hora de evaluar esta práctica:
 1. Su proyecto ha de incluir un fichero de configuración del flujo de desarrollo que permita automatizar mediante 
    [GitHub Actions](https://github.com/features/actions)
    la ejecución de las diferentes tareas del proyecto
-1. La aplicación debe adherirse al paradigma de programación orientada a objetos e implementarse de acuerdo con la arquitectura MVC, 
-   aplicando fundamentos, principios y buenas prácticas de OOP
-1. La estructura de clases de su aplicación se mostrará mediante un diagrama UML expuesto a través de una página GitHub del proyecto
-1. El comportamiento de su aplicación deberá ajustarse a lo descrito en este documento
-1. Los estilos de su aplicación han de implementarse utilizando el Framework
-   [Bulma](https://bulma.io/)
-1. Los métodos y clases de su aplicación estarán convenientemente documentados utilizando etiquetas
-   [JSDoc](https://jsdoc.app/)
-   y la documentación de la misma se generará utilizando
-   [TypeDoc](https://typedoc.org/)
-   y se alojará en una página GitHub de su proyecto
-1. La aplicación ha de contener tests unitarios realizados con 
-   [Jest](https://jestjs.io/)
-   para alguno(s) de los métodos que se desarrollen para su aplicación
-1. Mediante el uso de 
-   [typescript-eslint](https://typescript-eslint.io/)
-   se comprobará que el código de su aplicación se adhiere a las reglas de las Guías de Estilo de Google para 
-   [TypeScript](https://google.github.io/styleguide/tsguide.html)
-   y
-   [JavaScript](https://google.github.io/styleguide/jsguide.html)
-
-### Indicaciones de caracter general
-* La aplicación que desarrolle ha de ser orientada a objetos y conforme a la arquitectura MVC.
-Ponga en práctica en su desarrollo los fundamentos, principios y buenas prácticas de la OOP así como los
-conocimientos que haya adquirido en el uso de patrones de diseño.
-
-* Aloje ficheros de configuración adecuados en el directorio raíz de su proyecto, de modo que se contemplen todas las dependencias del mismo.
-
-* Utilice un fichero distinto para el código de cada una de las clases que intervienen en su programa.
-
-* Encapsule las clases en módulos que exporten la correspondiete clase hacia otros programas clientes que pudieran utilizarla.
-
-* Todo el código estará ubicado en el directorio `src/home-work` del proyecto. Use subdirectorios de éste si le resulta conveniente.
-
-* Antes de comenzar a desarrollar su programa dedique el tiempo necesario a diseñar la estructura de clases que 
-utilizará en su programa, así como las relaciones existentes entre las mismas. 
-Utilice 
-[LucidChart](https://www.lucidchart.com/pages/es)
-o una aplicación similar para realizar un diagrama UML para esas clases, que ha de añadir a la página índice de esta práctica. Asegúrese de la corrección de su diagrama UML.
-
-* Realice, como siempre, un diseño incremental del programa comprobando cada una de las funcionalidades que añade, siguiendo un
-desarrollo TDD.
-
-* Cuando finalice su desarrollo modifique el fichero `README.md` de su proyecto incluyendo la información habitual en cualquier proyecto público en GitHub. 
-Incluya en ese fichero dos apartados, Building and Running the code y Live Demo. 
-En el primero de ellos ha de explicar en detalle cómo a partir de clonar su repo público ha de compilarse, ejecutarse y desplegarse su aplicación, 
-mientras que en el segundo ha de incluir un enlace (véase el apartado *Presentación de resultados de este documento*) a la URL pública donde deberá estar disponible su aplicación.
-Haga que el fichero `README.md` de su proyecto sea la primera página de la documentación del mismo.
+* Se valorará la realización de las diferentes tareas que se proponen
+* El comportamiento del programa debe ajustarse a lo descrito en este documento
+* Capacidad de la programadora de introducir cambios en el programa desarrollado
+* Conocer y ser capaz de trabajar con el Framework
+  [Bulma CSS](https://bulma.io/)
+* La documentación de la aplicación incluirá un fichero README.md con la información correspondiente al
+  proyecto desarrollado
+* La estructura de directorios del proyecto será conforme a los requisitos establecidos en la asignatura
+* Se acredita conocimiento y puesta en práctica de principios y buenas prácticas de programación orientada a objetos
+* Saber corregir bugs en sus programas utilizando un depurador 
+* Deben usarse estructuras de datos adecuadas para representar los diferentes elementos que intervienen en el problema
+* Acreditar el conocimiento las etiquetas de 
+  [JSDoc](https://jsdoc.app/)
+* Ser capaz de generar documentación para sus programas TS utilizando
+  [TypeDoc](https://typedoc.org/)
+  y de visualizar dicha documentación en un servidor web
+* Acreditar su capacidad para configurar y utilizar 
+  [ESLint](https://eslint.org/)
+  y que es capaz de trabajar con la misma en Visual Studio Code
+* Se comprobará que el código de su aplicación se adhiere a las reglas de las Guías de Estilo de Google para
+  [TypeScript](https://google.github.io/styleguide/tsguide.html)
+  y
+  [JavaScript](https://google.github.io/styleguide/jsguide.html)
+  Usando 
+  [typescript-eslint](https://typescript-eslint.io/)
+  si le resulta necesario para ello.
+* Se comprobará que el código que el alumnado escribe se adhiere a las reglas de las Guías de Estilo de Google
+  para Javascript y/o TypeScript
+* Todas las prácticas realizadas hasta la fecha, incluída la que se presenta para su evaluación, se encuentran alojadas en repositorios privados de GitHub.
 
 ### Integración Continua
 Estudie el trabajo expuesto en clase sobre
-[Integración Continua](https://github.com/ULL-ESIT-PAI-2024-2025/2024-2025-pai-ci-2024-2025-pai-ci.git)
+[Integración Continua](XXX)
 para recordar cómo utilizar GitHub Actions para configurar un flujo de trabajo para su proyecto.
 
 Incluya en su proyecto un fichero de configuración del flujo que permita automatizar la ejecución de las
-diferentes tareas del proyecto.
+diferentes tareas.
 
 Incluya en su flujo de trabajo al menos las siguientes etapas:
 * Análisis estático de su código utilizando ESLint. Utilice 
@@ -97,9 +73,8 @@ asociada con el repositorio de su proyecto.
 Si hay alguna otra tarea que resulte de interés para su desarrollo, inclúyala igualmente en el flujo.
 
 ### El juego del Ahorcado
-En esta práctica se propone desarrollar una aplicación web SPA 
-[(Single Page Application)](https://en.wikipedia.org/wiki/Single-page_application)
-diseñada conforme al patrón Modelo Vista Controlador, que implemente el conocido juego del
+En esta práctica se propone desarrollar en Vanilla TypeScript una aplicación web SPA 
+diseñada conforme al patrón Modelo Vista Controlador, que implemente el conocido juego del 
 [Ahorcado](https://es.wikipedia.org/wiki/Ahorcado_\(juego\))
 
 El juego, conocido en inglés como *Hangman*, es un popular juego de adivinanza que se juega 
@@ -124,16 +99,60 @@ El juego puede terminar de dos maneras:
 Victoria del jugador: Si el jugador descubre todas las letras de la palabra antes de completar el dibujo del ahorcado.
 Victoria del ordenador: Si el adivinador agota todos sus intentos sin adivinar la palabra.
 
-Utilice para su aplicación un diccionario de palabras que incluya exclusivamente nombres de animales.
+Utilice para su aplicación un diccionario de palabras que incluya exclusivamente nombres de países en español.
 
-### Interfaz gráfica del programa
-La interfaz gráfica de la aplicación a diseñar imitará la de
+### Indicaciones de caracter general
+El programa que desarrolle ha de ser orientado a objetos y utilizar una arquitectura MVC.
+Ponga en práctica en su desarrollo los fundamentos, principios y buenas prácticas de la OOP así como los
+conocimientos que haya adquirido en el uso de patrones de diseño.
+
+Utilice un fichero distinto para el código de cada una de las clases que intervienen en su programa.
+
+Encapsule las clases en módulos que exporten la correspondiente clase a quien precise usarla.
+
+La estructura de directorios de su proyecto de práctica debe ser conforme con la establecida para las prácticas de PAI.
+
+Configure adecuadamente ficheros `package.json` y `tsconfig.json` en el directorio raíz de su ejercicio 
+que permitan la instalación de las dependencias de su proyecto.
+
+Actualice el fichero `README.md` con la información que considere relevante de su proyecto de práctica y haga que ese fichero
+sea la primera página de la documentación (TypeDoc) de la práctica.
+
+Haga que en el elemento `title` del código HTML de todas las páginas web de su poroyecto figure su nombre y apellidos.
+
+Utilice el depurador integrado en el navegador para confirmar que el flujo de ejecución de su programa es el correcto.
+
+No intente desarrollar su aplicación en un único paso.
+
+Previo al desarrollo, realice un diseño de su aplicación identificando las diferentes clases que
+intervienen en el programa. 
+Utilice lápiz y papel para hacer un esquema de las relaciones entre las diferentes clases.
+
+Después de esa planificación inicial, trabaje mediante sucesivos refinamientos de una primera aproximación.
+También puede resultarle conveniente realizar pequeñas aplicaciones auxiliares que le sirvan para comprobar y
+aprender el funcionamiento de algún aspecto concreto de la aplicación.
+
+Cuando finalice su aplicación, utilice 
+[Mermaid.js](https://mermaid.js.org/), 
+[Lucidchart](https://www.lucidchart.com/pages) o cualquier otra herramienta que conozca para trasladar sus
+diseños en papel a un diagrama en formato digital que pueda mostrar a través de una web.
+
+Configure en el directorio `/public` de su práctica, la página `index.html`, 
+que servirá de "página índice" tanto para su aplicación como para los ejercicios de la sesión de evaluación.
+Enlace también en esa página tanto la página que contiene la documentación (Typedoc) de su proyecto
+como otra que mostrará el diagrama UML de las clases que intervienen en su programa.
+
+### Interfaz gráfica y especificaciones de la aplicación
+Tenga en cuenta las siguientes especificaciones a la hora de diseñar su programa:
+
+Intente que su aplicación imite en la medida de lo posible el aspecto y funcionalidades de
 [esta página](https://www.englishclub.com/esl-games/hangman/animals-easy.php),
-una vez clicado el botón *START*, que se tomará como referencia.
+una vez clicado el botón `START`, que se tomará como referencia.
+
 Su aplicación no ha de contemplar el botón de arranque, sino que al inicializarse ha de mostrar ya el juego en
 curso.
 
-También el comportamiento lógico de su aplicación debe imitar a la de referencia.
+También la dinámica del juego de su aplicación debe imitar a la de referencia.
 
 Utilice libremente los elementos HTML que considere más adecuados para la interfaz gráfica de su aplicación y
 dote de estilo a esos elementos utilizando Bulma.
