@@ -1,6 +1,6 @@
 # :school: PAI Lab assignment [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-# Hangman Game: A Simple Event Driven Graphic web Application in vanilla Typescript
+# Hangman Game: A simple Event Driven Graphic web Game in vanilla Typescript
 
 ```text
 =========
