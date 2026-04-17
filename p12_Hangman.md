@@ -4,7 +4,7 @@
 ### Estimación de horas de trabajo para realizar la práctica: 6
 
 ### Objetivos
-Los objetivos de esta tarea son poner en práctica:
+Los objetivos de este ejercicio son poner en práctica:
 * Integración continua para un proyecto de prácticas de la asignatura
 * La arquitectura Modelo-Vista-Controlador (MVC)
 * El uso del framework Bulma para dotar de estilos a una aplicación web simple.
@@ -21,7 +21,7 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 1. Su proyecto ha de incluir un fichero de configuración del flujo de desarrollo que permita automatizar mediante 
    [GitHub Actions](https://github.com/features/actions)
    la ejecución de las diferentes tareas del proyecto
-* Se valorará la realización de las diferentes tareas que se proponen
+1. Se valorará la realización de las diferentes tareas que se proponen
 * El comportamiento del programa debe ajustarse a lo descrito en este documento
 * Capacidad de la programadora de introducir cambios en el programa desarrollado
 * Conocer y ser capaz de trabajar con el Framework
