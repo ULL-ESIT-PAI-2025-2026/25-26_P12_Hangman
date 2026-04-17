@@ -1,4 +1,4 @@
-# Práctica 12. Programación Gráfica Orientada a Objetos y guiada por eventos. El framework Bulma CSS. Juego del Ahorcado. 
+# Práctica 12. El juego del Ahorcado. 
 
 ### Factor de ponderación: 10 
 ### Estimación de horas de trabajo para realizar la práctica: 6
