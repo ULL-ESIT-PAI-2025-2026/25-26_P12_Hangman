@@ -167,9 +167,9 @@ Si lo desea, puede Ud. utilizar otras imágenes diferentes de esta propuesta.
 
 Configure una página GitHub asociada con su repositorio de trabajo que sirva de índice para estas otras
 páginas de su proyecto:
-* La aplicación *Hangman* que habrá desarrollado. Esa aplicación se configurará como una SPA.
+* La aplicación *Hangman* que habrá desarrollado. 
 * La documentación de la aplicación.
-* El diagrama UML de las clases utilizadas en la aplicación.
+* El diagrama UML de las clases utilizadas.
 * Una página que albergará el ejercicio que se le pedirá realizar en la sesión de evaluación de esta práctica.
 
 Todas estas páginas deberán tener un estilo personalizado que imite utilizando Bulma el aspecto (tipografía, colores) de las *páginas ULL*.
