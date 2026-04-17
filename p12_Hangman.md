@@ -53,8 +53,8 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 
 ### Integración Continua
 Estudie el trabajo expuesto en clase sobre
-[Integración Continua](XXX)
-para recordar cómo utilizar GitHub Actions para configurar un flujo de trabajo para su proyecto.
+[XXX Integración Continua](XXX)
+para practicar el uso de GitHub Actions para configurar un flujo de trabajo para su proyecto.
 
 Incluya en su proyecto un fichero de configuración del flujo que permita automatizar la ejecución de las
 diferentes tareas.
@@ -165,7 +165,6 @@ Se representará gráficamente el patíbulo, la horca y el ahorcado, para lo cua
 (cambie X por un valor entre 1 y 6) para obtener los 6 ficheros que corresponden con la secuencia del juego).
 Si lo desea, puede Ud. utilizar otras imágenes diferentes de esta propuesta.
 
-### Presentación de resultados
 Configure una página GitHub asociada con su repositorio de trabajo que sirva de índice para estas otras
 páginas de su proyecto:
 * La aplicación *Hangman* que habrá desarrollado. Esa aplicación se configurará como una SPA.
