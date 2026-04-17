@@ -2,6 +2,17 @@
 
 # Hangman Game: A Simple Event Driven Graphic web Application in vanilla Typescript
 
+```text
+=========
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
+```
+
 ## Purpose
 The objectives of this assignment are to put into practice:
 * Continuous Integration for a simple project
