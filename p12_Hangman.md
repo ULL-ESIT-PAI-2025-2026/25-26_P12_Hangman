@@ -52,9 +52,9 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 1. Todas las prácticas realizadas hasta la fecha, incluída la que se presenta para su evaluación, se encuentran alojadas en repositorios privados de GitHub.
 
 ### Integración Continua
-Estudie el trabajo expuesto en clase sobre
-[Integración Continua](https://github.com/ULL-ESIT-PAI-2025-2026/2025-2026-pai-integraci-n-continua-2025-2026-pai-integracion-continua.git)
-para practicar el uso de GitHub Actions para configurar un flujo de trabajo para su proyecto.
+Estudie el
+[trabajo expuesto en clase](https://github.com/ULL-ESIT-PAI-2025-2026/2025-2026-pai-integraci-n-continua-2025-2026-pai-integracion-continua.git)
+sobre Integración continua para practicar el uso de GitHub Actions para configurar un flujo de trabajo para su proyecto.
 
 Incluya en su proyecto un fichero de configuración del flujo que permita automatizar la ejecución de las
 diferentes tareas.
