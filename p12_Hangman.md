@@ -54,10 +54,10 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 ### Integración Continua
 Estudie el
 [trabajo expuesto en clase](https://github.com/ULL-ESIT-PAI-2025-2026/2025-2026-pai-integraci-n-continua-2025-2026-pai-integracion-continua.git)
-sobre Integración continua para practicar el uso de GitHub Actions para configurar un flujo de trabajo para su proyecto.
-
-Incluya en su proyecto un fichero de configuración del flujo que permita automatizar la ejecución de las
-diferentes tareas.
+sobre Integración continua para practicar el uso de 
+[GitHub Actions](https://github.com/features/actions)
+para configurar un flujo de trabajo para su proyecto, incluyendo
+un fichero de configuración del flujo que permita automatizar la ejecución de las diferentes tareas.
 
 Incluya en su flujo de trabajo al menos las siguientes etapas:
 * Análisis estático de su código utilizando ESLint. Utilice 
