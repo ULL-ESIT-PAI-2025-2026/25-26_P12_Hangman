@@ -53,7 +53,7 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 
 ### Integración Continua
 Estudie el trabajo expuesto en clase sobre
-[XXX Integración Continua](XXX)
+[Integración Continua](https://github.com/ULL-ESIT-PAI-2025-2026/2025-2026-pai-integraci-n-continua-2025-2026-pai-integracion-continua.git)
 para practicar el uso de GitHub Actions para configurar un flujo de trabajo para su proyecto.
 
 Incluya en su proyecto un fichero de configuración del flujo que permita automatizar la ejecución de las
@@ -64,11 +64,13 @@ Incluya en su flujo de trabajo al menos las siguientes etapas:
 [typescript-eslint](https://typescript-eslint.io/)
 para habilitar el análisis de código TypeScript en ESLint y configure el linter para que analice la
 conformidad de su código con la Guía de Estilo de Google para TS.
+* Empaquetado de su aplicación utilizando
+  [Vite](https://vite.dev/)
 * Generación de la documentación de su proyecto utilizando
-[TypeDoc](https://typedoc.org/)
+  [TypeDoc](https://typedoc.org/)
 * Despliegue de su aplicación en una 
-[GitHub Page](https://pages.github.com/) 
-asociada con el repositorio de su proyecto.
+  [GitHub Page](https://pages.github.com/) 
+  asociada con el repositorio de su proyecto.
 
 Si hay alguna otra tarea que resulte de interés para su desarrollo, inclúyala igualmente en el flujo.
 
@@ -145,17 +147,14 @@ como otra que mostrará el diagrama UML de las clases que intervienen en su prog
 ### Interfaz gráfica y especificaciones de la aplicación
 Tenga en cuenta las siguientes especificaciones a la hora de diseñar su programa:
 
-Intente que su aplicación imite en la medida de lo posible el aspecto y funcionalidades de
+Intente que su aplicación imite la dinámica del juego de
 [esta página](https://www.englishclub.com/esl-games/hangman/animals-easy.php),
-una vez clicado el botón `START`, que se tomará como referencia.
-
-Su aplicación no ha de contemplar el botón de arranque, sino que al inicializarse ha de mostrar ya el juego en
-curso.
-
-También la dinámica del juego de su aplicación debe imitar a la de referencia.
-
-Utilice libremente los elementos HTML que considere más adecuados para la interfaz gráfica de su aplicación y
-dote de estilo a esos elementos utilizando Bulma.
+una vez clicado el botón `START`.
+Su aplicación no ha de contemplar el botón de arranque (`START`), sino que al inicializarse ha de mostrar ya el juego inicializado.
+En cuanto al diseño de la interfaz gráfica, experimente libremente con los elementos HTML que considere 
+más convenientes y dote de estilo a esos elementos utilizando
+[Bulma](https://bulma.io/)
+para que su aplicación imite el aspecto (tipografía, colores) de las *páginas ULL*.
 
 Sobre un fondo de color gris se representarán las casillas vacías correspondiente a la palabra a adivinar así
 como las casillas correspondientes a cada una de las letras del alfabeto.
@@ -177,6 +176,7 @@ Todas estas páginas deberán tener un estilo personalizado que imite utilizando
 ## Referencias
 * [Ahorcado](https://es.wikipedia.org/wiki/Ahorcado_\(juego\))
 * [GitHub Actions](https://github.com/features/actions)
+* [Vite](https://vite.dev/)
 * [GitHub Pages](https://pages.github.com/)
 * [Bulma](https://bulma.io/)
 * [TypeDoc](https://typedoc.org/)
